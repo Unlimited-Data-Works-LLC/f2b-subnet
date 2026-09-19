@@ -1,5 +1,8 @@
 # f2b-subnet — Fail2Ban Subnet Banning System
 
+> **Status:** stable · running on a live production mail server since 2026-04 · MIT-licensed
+> **Maintainer:** [Unlimited Data Works LLC](https://www.udataworks.com) — fractional-CTO practice for regulated / high-availability environments
+
 Automatically escalates individual fail2ban IP bans to their allocated subnet using RDAP/whois lookups. Designed for private services (Dovecot IMAP) where no legitimate users should be authenticating from foreign ISPs.
 
 ## Architecture
@@ -337,3 +340,13 @@ check-f2b-nft-sync.sh dovecot,dovecot-subnet,postfix addr-set-dovecot,addr-set-d
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+## About
+
+Built and maintained by [Unlimited Data Works LLC](https://www.udataworks.com) — Craig LaForest's fractional-CTO practice for medical research, healthcare, and other regulated / high-availability environments where mail-server abuse mitigation matters.
+
+- Practice site: <https://www.udataworks.com>
+- Author: [Craig LaForest on LinkedIn](https://www.linkedin.com/in/craiglaforest/)
+- Companion project: [Email-Triage](https://github.com/Unlimited-Data-Works-LLC/Email-Triage) — HIPAA-aware, privacy-first, local-LLM email triage.
